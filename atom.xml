@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yucg.cn/"/>
-  <updated>2021-01-30T09:13:13.077Z</updated>
+  <updated>2021-01-30T19:32:05.691Z</updated>
   <id>http://yucg.cn/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Spring IOC&amp;DI</title>
+    <link href="http://yucg.cn/posts/4970b8c1.html"/>
+    <id>http://yucg.cn/posts/4970b8c1.html</id>
+    <published>2021-01-31T19:28:00.000Z</published>
+    <updated>2021-01-30T19:32:05.691Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-spring概述&quot;&gt;&lt;a href=&quot;#1-spring概述&quot; class=&quot;headerlink&quot; title=&quot;1. spring概述&quot;&gt;&lt;/a&gt;1. spring概述&lt;/h2&gt;&lt;h3 id=&quot;1-1-Spring是什么（理解）&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="博客篇" scheme="http://yucg.cn/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    
+    
+      <category term="Java" scheme="http://yucg.cn/tags/Java/"/>
+    
+      <category term="Spring" scheme="http://yucg.cn/tags/Spring/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo之渲染绕过</title>
