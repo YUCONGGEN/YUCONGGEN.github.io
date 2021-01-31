@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yucg.cn/"/>
-  <updated>2021-01-30T19:32:05.691Z</updated>
+  <updated>2021-01-31T11:13:27.964Z</updated>
   <id>http://yucg.cn/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Spring IOC&amp;DI</title>
-    <link href="http://yucg.cn/posts/4970b8c1.html"/>
-    <id>http://yucg.cn/posts/4970b8c1.html</id>
-    <published>2021-01-31T19:28:00.000Z</published>
-    <updated>2021-01-30T19:32:05.691Z</updated>
+    <title>spring Template</title>
+    <link href="http://yucg.cn/posts/fd921d09.html"/>
+    <id>http://yucg.cn/posts/fd921d09.html</id>
+    <published>2020-05-21T10:41:03.000Z</published>
+    <updated>2021-01-31T11:13:27.964Z</updated>
     
     <summary type="html">
     
@@ -29,13 +29,13 @@
       
         
         
-          &lt;h2 id=&quot;1-spring概述&quot;&gt;&lt;a href=&quot;#1-spring概述&quot; class=&quot;headerlink&quot; title=&quot;1. spring概述&quot;&gt;&lt;/a&gt;1. spring概述&lt;/h2&gt;&lt;h3 id=&quot;1-1-Spring是什么（理解）&quot;&gt;&lt;a
+          &lt;h1 id=&quot;JdbcTemplate基本使用&quot;&gt;&lt;a href=&quot;#JdbcTemplate基本使用&quot; class=&quot;headerlink&quot; title=&quot;JdbcTemplate基本使用&quot;&gt;&lt;/a&gt;JdbcTemplate基本使用&lt;/h1&gt;&lt;h2
         
       
     
     </summary>
     
-      <category term="博客篇" scheme="http://yucg.cn/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+      <category term="Javaee" scheme="http://yucg.cn/categories/Javaee/"/>
     
     
       <category term="Java" scheme="http://yucg.cn/tags/Java/"/>
@@ -131,6 +131,62 @@
   </entry>
   
   <entry>
+    <title>spring AOP</title>
+    <link href="http://yucg.cn/posts/2a008563.html"/>
+    <id>http://yucg.cn/posts/2a008563.html</id>
+    <published>2019-12-21T07:41:03.000Z</published>
+    <updated>2021-01-31T11:12:34.040Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1-Spring-的-AOP-简介&quot;&gt;&lt;a href=&quot;#1-Spring-的-AOP-简介&quot; class=&quot;headerlink&quot; title=&quot;1.Spring 的 AOP 简介&quot;&gt;&lt;/a&gt;1.Spring 的 AOP 简介&lt;/h3&gt;&lt;h4
+        
+      
+    
+    </summary>
+    
+      <category term="Javaee" scheme="http://yucg.cn/categories/Javaee/"/>
+    
+    
+      <category term="Java" scheme="http://yucg.cn/tags/Java/"/>
+    
+      <category term="Spring" scheme="http://yucg.cn/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spring 注解</title>
+    <link href="http://yucg.cn/posts/30433b69.html"/>
+    <id>http://yucg.cn/posts/30433b69.html</id>
+    <published>2019-11-21T04:41:03.000Z</published>
+    <updated>2021-01-31T11:12:16.059Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-Spring配置数据源&quot;&gt;&lt;a href=&quot;#1-Spring配置数据源&quot; class=&quot;headerlink&quot; title=&quot;1.Spring配置数据源&quot;&gt;&lt;/a&gt;1.Spring配置数据源&lt;/h2&gt;&lt;h3 id=&quot;1-1-数据源（连接池）的作用&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Javaee" scheme="http://yucg.cn/categories/Javaee/"/>
+    
+    
+      <category term="Java" scheme="http://yucg.cn/tags/Java/"/>
+    
+      <category term="Spring" scheme="http://yucg.cn/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
     <title>个人博客搭建11</title>
     <link href="http://yucg.cn/posts/e3e08109.html"/>
     <id>http://yucg.cn/posts/e3e08109.html</id>
@@ -158,6 +214,34 @@
       <category term="Github" scheme="http://yucg.cn/tags/Github/"/>
     
       <category term="博客" scheme="http://yucg.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring IOC&amp;DI</title>
+    <link href="http://yucg.cn/posts/4970b8c1.html"/>
+    <id>http://yucg.cn/posts/4970b8c1.html</id>
+    <published>2019-01-31T19:28:00.000Z</published>
+    <updated>2021-01-31T11:19:05.319Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-spring概述&quot;&gt;&lt;a href=&quot;#1-spring概述&quot; class=&quot;headerlink&quot; title=&quot;1. spring概述&quot;&gt;&lt;/a&gt;1. spring概述&lt;/h2&gt;&lt;h3 id=&quot;1-1-Spring是什么（理解）&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Javaee" scheme="http://yucg.cn/categories/Javaee/"/>
+    
+    
+      <category term="Java" scheme="http://yucg.cn/tags/Java/"/>
+    
+      <category term="Spring" scheme="http://yucg.cn/tags/Spring/"/>
     
   </entry>
   
