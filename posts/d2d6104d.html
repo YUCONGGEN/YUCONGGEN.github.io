@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="PicGo+GitHub 图床搭建,  Linux 计算机 前端 python">
-    <meta name="description" content="本科 | 软件工程 | 人工智能与大数据">
+    <meta name="keywords" content="开始机器学习之前：配置开发环境,  Linux 计算机 前端 python">
+    <meta name="description" content="本科 | 软件工程 | 人工智能与大数据 |">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>PicGo+GitHub 图床搭建 | 郁</title>
+    <title>开始机器学习之前：配置开发环境 | 郁</title>
 
     <link rel="icon" type="image/png" href="http://qy756ybgb.hd-bkt.clouddn.com/yu.png">
 
@@ -178,7 +178,7 @@
         <div class="logo-name">郁</div>
         <div class="logo-desc">
             
-            本科 | 软件工程 | 人工智能与大数据
+            本科 | 软件工程 | 人工智能与大数据 |
             
         </div>
     </div>
@@ -378,12 +378,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020704.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021038.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">PicGo+GitHub 图床搭建</h1>
+                    <h1 class="description center-align post-title">开始机器学习之前：配置开发环境</h1>
                 </div>
             </div>
         </div>
@@ -504,12 +504,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/PicGo/">
-                                <span class="chip bg-color">PicGo</span>
+                            <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">
+                                <span class="chip bg-color">机器学习</span>
                             </a>
                         
-                            <a href="/tags/GitHub%E5%9B%BE%E5%BA%8A/">
-                                <span class="chip bg-color">GitHub图床</span>
+                            <a href="/tags/%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/">
+                                <span class="chip bg-color">配置开发环境</span>
                             </a>
                         
                     </div>
@@ -520,8 +520,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/" class="post-category">
-                                博客篇
+                            <a href="/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AF%87/" class="post-category">
+                                机器学习篇
                             </a>
                         
                     </div>
@@ -533,21 +533,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-15
+                    2020-09-04
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-08-21
+                    2021-09-05
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
+                    1k
                 </div>
                 
 
@@ -577,62 +577,56 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>用GitHub搭建图床，在很久之前我就有了解，但由于市面上有挺多免费的图床，比如我之前一直在用的 路过图床，所以一直懒得动手搭建GitHub图床。一直到前两天我在完善博客的相册时，发现 路过图床 免费版的有这么多限制，比如：每小时限制上传50张图片，每天限制上传100张图片，而且免费版用户的存储容量貌似不过300M，这才意识到有一个自己的GitHub图床是多么重要。</p>
-<h3 id="0x001-PicGO-介绍"><a href="#0x001-PicGO-介绍" class="headerlink" title="0x001 PicGO 介绍"></a>0x001 PicGO 介绍</h3><p>PicGo是一款图片上传工具，目前支持 SM.MS图床、腾讯云COS、GitHub图床、七牛图床、Imgur图床、阿里云OSS、又拍云图床，未来将支持更多图床。</p>
-<p>在支持的这些图床中，SM.MS和Imgur有免费版和收费版，免费版的肯定有很多的使用限制，比如每小时限制上传次数，限制用户的上传容量等等；腾讯云COS、阿里云、有拍云都是要收费使用的；七牛云貌似前期使用免费，后期又要收费才能使用，就剩下的GitHub才是免费且最可靠的。</p>
-<p>PicGo源项目GitHub地址已给出，但是去GitHub下载速度非常慢，这里额外提供一个蓝奏云的快速下载地址。</p>
-<ul>
-<li>GitHub地址：<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo">https://github.com/Molunerfinn/PicGo</a></li>
-<li>蓝奏云地址：<a target="_blank" rel="noopener" href="https://luckyzmj.lanzous.com/id3e0id">https://luckyzmj.lanzous.com/id3e0id</a></li>
-</ul>
-<h3 id="0x002-GitHub-图床"><a href="#0x002-GitHub-图床" class="headerlink" title="0x002 GitHub 图床"></a>0x002 GitHub 图床</h3><h4 id="1-创建GitHub图床仓库"><a href="#1-创建GitHub图床仓库" class="headerlink" title="1. 创建GitHub图床仓库"></a>1. 创建GitHub图床仓库</h4><p>首先需要有一个登录GitHub的账号，没有的话去<a target="_blank" rel="noopener" href="https://github.com/">GitHub官网</a>注册一个</p>
-<p>创建一个新的图床仓库，点击右上角的New repository</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200529155833.png"></p>
-<p>填写如下配置信息，然后Create创建仓库</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200529160010.png"></p>
-<h4 id="2-获取GitHub-token值"><a href="#2-获取GitHub-token值" class="headerlink" title="2. 获取GitHub token值"></a>2. 获取GitHub token值</h4><p>点击右上的头像，选择设置Setting</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200529160727.png"></p>
-<p>点击选择Developer settings </p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200529160939.png"></p>
-<p>点击 Generate New token</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200529161241.png"></p>
-<p>填写如下配置信息，只要勾选repo选项即可，然后页面拉到底部点击Generate token 即可</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200529161716.png"></p>
-<p>此时会跳转到带有token的页面，将token值复制记录下来，之后用PicGo绑定GitHub图床时会利用到</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200529162127.png"></p>
-<h3 id="0x003-PicGo-配置"><a href="#0x003-PicGo-配置" class="headerlink" title="0x003 PicGo 配置"></a>0x003 PicGo 配置</h3><h4 id="1-绑定GitHub图床"><a href="#1-绑定GitHub图床" class="headerlink" title="1. 绑定GitHub图床"></a>1. 绑定GitHub图床</h4><p>首先下载安装好PicGo软件，然后在右列表找到GitHub图床配置</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200529163130.png"></p>
-<p><strong>1. 设定仓库名(必填)：</strong> </p>
-<p>按照“GitHub账户名/仓库名的格式填写”，比如我的是：Luckyzmj/imgbed</p>
-<p><strong>2. 设定分支名(必填)：</strong> </p>
-<p>仓库分支名填写”master”或者”main”，视情况而定。因为GitHub 官方表示,从2020年10月1日起,在该平台上创建的所有新的源代码仓库将默认被命名为”main”,而不是原先的”master”。</p>
-<p><strong>3. 设定Token(必填)：</strong> </p>
-<p>将之前步骤的Token值复制粘贴到这里</p>
-<p><strong>4. 指定存储路径：</strong> </p>
-<p>这个选项可以为空，如果想将图片上传到仓库的指定目录下，可以填写目录名加/，比如我的imgbed仓库下有个posts文件夹，需设置为 posts/</p>
-<p><strong>5. 设定自定义域名：</strong> </p>
-<p>这里统一用jsdelivr的CDN加速域名，在上传图片后成功后，PicGo会将“自定义域名+上传的图片名”生成的访问链接</p>
-<pre class="line-numbers language-none"><code class="language-none">
-自定义域名格式：https://cdn.jsdelivr.net/gh/GitHub账户名/仓库名
-以我的格式为例：https://cdn.jsdelivr.net/gh/Luckyzmj/imgbed<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+                <h1 id="开始机器学习之前：配置开发环境"><a href="#开始机器学习之前：配置开发环境" class="headerlink" title="开始机器学习之前：配置开发环境"></a><strong>开始机器学习之前：配置开发环境</strong></h1><h2 id="开发环境：Jupyter-notebook"><a href="#开发环境：Jupyter-notebook" class="headerlink" title="开发环境：Jupyter-notebook"></a>开发环境：Jupyter-notebook</h2><p>课程中的开发环境是<strong>Jupyter lab</strong>，Jupyter lab是Jupyter Notebook的升级版，页面更加美观操作更加简便，和Notebook一样是anaconda自带，在cmd或者anaconda prompt里面输入Jupyter lab即可打开，或者也可以在Anaconda页面中找到它的接口。Jupyter lab中大部分操作都和Notebook一样，每个人电脑的设置不同，可能存在Jupyter lab无法使用的情况。</p>
+<p><img src="http://qyxthf420.hn-bkt.clouddn.com/1-1.png" alt=" "></p>
+<h2 id="所需库和版本（基于anaconda"><a href="#所需库和版本（基于anaconda" class="headerlink" title="所需库和版本（基于anaconda)"></a>所需库和版本（基于anaconda)</h2><p>课程中需要使用到的库/模块，以及我所使用的版本供大家参考：<strong>Anaconda</strong>：4.6.8（你的版本最少要4.6.7或以上) <strong>Python</strong> 3.7.2 （你的版本至少要3.6或以上) <strong>Scikit-learn</strong> 0.20.3 （你的版本至少要0.20或以上) <strong>Graphviz</strong> 0.8.4  <strong>NumPy</strong> 1.16.2  <strong>Pandas</strong> 0.24.2（你的版本至少要0.23或以上)  <strong>Matplotlib</strong> 3.0.3   <strong>SciPy</strong> 1.2.1</p>
+<p>以上的库和模块都是必须的，版本可以不用太过限制不过尽量保持和需求的一致会比较理想。这些库大部分是anaconda自带的，但是graphviz需要自行安装，详情请参考“安装graphviz”章节。你可以使用以下代码来查看你现在所安装的版本和库是否达到要求，如果没有达到要求，请参考下面的部分来进行更新/安装：</p>
+<p>#导入所需要的库</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#导入所需要的库</span>
+<span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd
+<span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+<span class="token keyword">import</span> sklearn
+<span class="token keyword">import</span> matplotlib <span class="token keyword">as</span> mlp
+<span class="token keyword">import</span> scipy<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>配置完全部信息后，点击 设为默认图床，最后点击确定即可</p>
-<h4 id="2-上传图片到图床"><a href="#2-上传图片到图床" class="headerlink" title="2. 上传图片到图床"></a>2. 上传图片到图床</h4><p>在上传区上传图片，可支持本地图片上传(可多选图片)、剪贴板上传、URL上传等三种方式。上传图片成功后，选择你想要生成的图片链接格式</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200529170555.png"></p>
-<p>在图片区，可以看到成功上传的图片，选择相应的图片进行操作即可</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200529170831.png"></p>
-<h4 id="3-PicGo-注意事项"><a href="#3-PicGo-注意事项" class="headerlink" title="3. PicGo 注意事项"></a>3. PicGo 注意事项</h4><p>如果配置完PicGo后却上传图片失败，可以参考以下方法：</p>
-<ol>
-<li>检查自定义域名是否正确</li>
-<li>仓库名不要有空格</li>
-<li>图片名字不要带有特殊符号，如：%、+、*、空格等</li>
-<li>建议开启时间戳重命名，防止图片名字重复</li>
-<li>上传图片间歇太短，需在PicGo设置中关闭Server选项</li>
-<li>PicGo应用不稳定因素，需重启应用</li>
-</ol>
-<h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><ul>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/sunhwee/article/details/100109956">https://blog.csdn.net/sunhwee/article/details/100109956</a></li>
-</ul>
+<p>如果出现”no module named xxxx”这样的错误，证明你的计算机缺乏xxxx库，则需要另行安装。另行安装的时候，</p>
+<p>请在cmd或者anaconda prompt里面运行以下代码。<strong>缺哪个库，安哪个库，切勿覆盖/重新安装已存在的库</strong>。注意，安装时一次一行，一次一库。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#在cmd或anaconda prompt中逐行运行</span>
+conda install numpy
+conda install pandas
+conda install scipy
+conda install matplotlib
+conda install scikit<span class="token operator">-</span>learn<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>如果导入没有报错，你可以继续运行下面的代码来查看你的anaconda版本：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">conda <span class="token operator">-</span>v<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>并运行以下代码来查看你的Python版本：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">Python <span class="token operator">-</span>v<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>你可使用以下代码来查看你其他库的版本：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">module <span class="token operator">=</span> <span class="token punctuation">[</span>pd<span class="token punctuation">,</span>np<span class="token punctuation">,</span>sklearn<span class="token punctuation">,</span>mlp<span class="token punctuation">,</span>scipy<span class="token punctuation">]</span>
+name <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"pandas"</span><span class="token punctuation">,</span><span class="token string">"numpy"</span><span class="token punctuation">,</span><span class="token string">"sklearn"</span><span class="token punctuation">,</span><span class="token string">"matplotlib"</span><span class="token punctuation">,</span><span class="token string">"scipy"</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> name<span class="token punctuation">,</span>item <span class="token keyword">in</span> <span class="token builtin">zip</span><span class="token punctuation">(</span>name<span class="token punctuation">,</span>module<span class="token punctuation">)</span><span class="token punctuation">:</span>
+		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"{}:{}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>name<span class="token punctuation">,</span>item<span class="token punctuation">.</span>__version__<span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>如果你的Python版本或任意库的版本不足，可以使用以下代码对各个模块和库进行更新。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#在cmd或anaconda prompt中逐行运行</span>
+<span class="token comment">#更新anaconda(可能耗时较长时间)</span>
+conda update <span class="token operator">-</span>n base <span class="token operator">-</span>c defaults conda
+<span class="token comment">#更新Python</span>
+conda update python
+<span class="token comment">#更新所需要的库</span>
+conda update pandas
+conda update numpy
+conda update scipy
+conda update matplotlib
+conda update scikit<span class="token operator">-</span>learn
+<span class="token comment">#一次性更新anaconda下面所有的库(可能耗时较长时间)</span>
+conda update <span class="token operator">-</span><span class="token operator">-</span><span class="token builtin">all</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>在许多时候，我们也通过pip进行操作，但如果能够使用Anaconda，就不推荐使用pip。pip安装一部分库的时候可能会出现异常，原因是pip默认下载的一部分库的版本（如SciPy）可能只适用于linux系统，而Anaconda的安装一般不会有这个问题。对于能够自己排查出现的问题的学员，请随意选择任何安装方式。但注意，Anaconda的安装和pip的安装尽量不要混用，由Anaconda安装的库在使用pip卸载或是更新的时候，可能出现无法卸载干净，无法正常更新，或更新后一部分库变得无法运行的情况。安装过程中任何的报错，都可以通过卸载重装来解决问题，这是最有效的方式。</p>
+<h2 id="安装和配置graphviz"><a href="#安装和配置graphviz" class="headerlink" title="安装和配置graphviz"></a>安装和配置<strong>graphviz</strong></h2><p>graphviz是我们算法模块中比较重要的一个库，我们会使用它来对我们的重要算法：决策树进行绘图。通常来说graphviz都不太可能是自带的。Mac系统下安装graphviz相对简单，可以参考博文：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_36847641/article/details/78224910%E3%80%82">https://blog.csdn.net/qq_36847641/article/details/78224910。</a></p>
 
                 
             </div>
@@ -649,7 +643,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">Luckey</a>
+                    <a href="/about" rel="external nofollow noreferrer">郁</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -659,7 +653,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://www.yucg.cn/posts/7a46f93c.html">http://www.yucg.cn/posts/7a46f93c.html</a>
+                    <a href="http://www.yucg.cn/posts/d2d6104d.html">http://www.yucg.cn/posts/d2d6104d.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -672,7 +666,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">Luckey</a>
+                    <a href="/about" target="_blank">郁</a>
                     !
                 </span>
             </div>
@@ -697,12 +691,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/PicGo/">
-                                    <span class="chip bg-color">PicGo</span>
+                                <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">
+                                    <span class="chip bg-color">机器学习</span>
                                 </a>
                             
-                                <a href="/tags/GitHub%E5%9B%BE%E5%BA%8A/">
-                                    <span class="chip bg-color">GitHub图床</span>
+                                <a href="/tags/%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/">
+                                    <span class="chip bg-color">配置开发环境</span>
                                 </a>
                             
                         </div>
@@ -1178,31 +1172,31 @@ new Valine({
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/4b3510a4.html">
+                <a href="/posts/d2d6104d.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928020120.jpg" class="responsive-img" alt="文字背景粒子特效">
+                        <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021038.jpg" class="responsive-img" alt="开始机器学习之前：配置开发环境">
                         
-                        <span class="card-title">文字背景粒子特效</span>
+                        <span class="card-title">开始机器学习之前：配置开发环境</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一款jQuery+CSS3的文字背景粒子动画特效，一共6种粒子效果，每种文字背景的粒子效果都不同，有漂浮的有坠落的等等。 
+                            Jupyter lab是Jupyter Notebook的升级版，页面更加美观操作更加简便，和Notebook一样是anaconda自带，在cmd或者anaconda prompt里面输入Jupyter lab即可打开，或者也可以在Anaconda页面中找到它的接口。 
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-27
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-09-04
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%89%8D%E7%AB%AF%E7%AF%87/" class="post-category">
-                                    前端篇
+                            <a href="/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AF%87/" class="post-category">
+                                    机器学习篇
                                 </a>
                             
                             
@@ -1212,12 +1206,12 @@ new Valine({
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/jQuery-CSS3/">
-                        <span class="chip bg-color">jQuery+CSS3</span>
+                    <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">
+                        <span class="chip bg-color">机器学习</span>
                     </a>
                     
-                    <a href="/tags/%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88/">
-                        <span class="chip bg-color">粒子特效</span>
+                    <a href="/tags/%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/">
+                        <span class="chip bg-color">配置开发环境</span>
                     </a>
                     
                 </div>
@@ -1228,53 +1222,50 @@ new Valine({
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/posts/19d2a4e6.html">
+                <a href="/posts/d2d6104d.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928011708.jpg" class="responsive-img" alt="阿里云服务器部署Hexo博客">
+                        <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021038.jpg" class="responsive-img" alt="开始机器学习之前：配置开发环境">
                         
-                        <span class="card-title">阿里云服务器部署Hexo博客</span>
+                        <span class="card-title">开始机器学习之前：配置开发环境</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            相信大部分人使用Hexo搭建个人博客都会部署到一些免费的代码托管平台上，但这些免费的平台总是差强人意，今天记录下如何在自己的云服务器上搭建Hexo博客。
+                            Jupyter lab是Jupyter Notebook的升级版，页面更加美观操作更加简便，和Notebook一样是anaconda自带，在cmd或者anaconda prompt里面输入Jupyter lab即可打开，或者也可以在Anaconda页面中找到它的接口。 
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-09-04
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/" class="post-category">
-                                    博客篇
+                            <a href="/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AF%87/" class="post-category">
+                                    机器学习篇
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
+                    <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">
+                        <span class="chip bg-color">机器学习</span>
                     </a>
                     
-                    <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/">
-                        <span class="chip bg-color">阿里云</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">博客</span>
+                    <a href="/tags/%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/">
+                        <span class="chip bg-color">配置开发环境</span>
                     </a>
                     
                 </div>
@@ -1447,6 +1438,60 @@ new Valine({
 
     <footer class="page-footer bg-color">
     
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="tencent"
+                   type="playlist"
+                   id="1776127550"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
     <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
@@ -1460,7 +1505,7 @@ new Valine({
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">16.2k</span>&nbsp;字
+                class="white-color">2k</span>&nbsp;字
             
             
             
