@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>郁</title>
+  <title>郁从根的博客</title>
   
   <subtitle>郁の博客</subtitle>
   <link href="https://yuconggen.github.io/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://yuconggen.github.io/</id>
   
   <author>
-    <name>郁</name>
+    <name>郁从根</name>
     
   </author>
   
