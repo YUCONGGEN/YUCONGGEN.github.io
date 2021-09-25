@@ -572,7 +572,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="开始机器学习之前：配置开发环境"><a href="#开始机器学习之前：配置开发环境" class="headerlink" title="开始机器学习之前：配置开发环境"></a><strong>开始机器学习之前：配置开发环境</strong></h1><h2 id="开发环境：Jupyter-notebook"><a href="#开发环境：Jupyter-notebook" class="headerlink" title="开发环境：Jupyter-notebook"></a>开发环境：Jupyter-notebook</h2><p>课程中的开发环境是<strong>Jupyter lab</strong>，Jupyter lab是Jupyter Notebook的升级版，页面更加美观操作更加简便，和Notebook一样是anaconda自带，在cmd或者anaconda prompt里面输入Jupyter lab即可打开，或者也可以在Anaconda页面中找到它的接口。Jupyter lab中大部分操作都和Notebook一样，每个人电脑的设置不同，可能存在Jupyter lab无法使用的情况。</p>
+                <h1 id="开始机器学习之前：配置开发环境"><a href="#开始机器学习之前：配置开发环境" class="headerlink" title="开始机器学习之前：配置开发环境"></a>开始机器学习之前：配置开发环境</h1><h2 id="开发环境：Jupyter-notebook"><a href="#开发环境：Jupyter-notebook" class="headerlink" title="开发环境：Jupyter-notebook"></a>开发环境：Jupyter-notebook</h2><p>课程中的开发环境是<strong>Jupyter lab</strong>，Jupyter lab是Jupyter Notebook的升级版，页面更加美观操作更加简便，和Notebook一样是anaconda自带，在cmd或者anaconda prompt里面输入Jupyter lab即可打开，或者也可以在Anaconda页面中找到它的接口。Jupyter lab中大部分操作都和Notebook一样，每个人电脑的设置不同，可能存在Jupyter lab无法使用的情况。</p>
 <p><img src="http://qyxthf420.hn-bkt.clouddn.com/1-1.png" alt=" "></p>
 <h2 id="所需库和版本（基于anaconda"><a href="#所需库和版本（基于anaconda" class="headerlink" title="所需库和版本（基于anaconda)"></a>所需库和版本（基于anaconda)</h2><p>课程中需要使用到的库/模块，以及我所使用的版本供大家参考：<strong>Anaconda</strong>：4.6.8（你的版本最少要4.6.7或以上) <strong>Python</strong> 3.7.2 （你的版本至少要3.6或以上) <strong>Scikit-learn</strong> 0.20.3 （你的版本至少要0.20或以上) <strong>Graphviz</strong> 0.8.4  <strong>NumPy</strong> 1.16.2  <strong>Pandas</strong> 0.24.2（你的版本至少要0.23或以上)  <strong>Matplotlib</strong> 3.0.3   <strong>SciPy</strong> 1.2.1</p>
 <p>以上的库和模块都是必须的，版本可以不用太过限制不过尽量保持和需求的一致会比较理想。这些库大部分是anaconda自带的，但是graphviz需要自行安装，详情请参考“安装graphviz”章节。你可以使用以下代码来查看你现在所安装的版本和库是否达到要求，如果没有达到要求，请参考下面的部分来进行更新/安装：</p>
@@ -621,7 +621,7 @@ conda update scikit<span class="token operator">-</span>learn
 conda update <span class="token operator">-</span><span class="token operator">-</span><span class="token builtin">all</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>在许多时候，我们也通过pip进行操作，但如果能够使用Anaconda，就不推荐使用pip。pip安装一部分库的时候可能会出现异常，原因是pip默认下载的一部分库的版本（如SciPy）可能只适用于linux系统，而Anaconda的安装一般不会有这个问题。对于能够自己排查出现的问题的学员，请随意选择任何安装方式。但注意，Anaconda的安装和pip的安装尽量不要混用，由Anaconda安装的库在使用pip卸载或是更新的时候，可能出现无法卸载干净，无法正常更新，或更新后一部分库变得无法运行的情况。安装过程中任何的报错，都可以通过卸载重装来解决问题，这是最有效的方式。</p>
-<h2 id="安装和配置graphviz"><a href="#安装和配置graphviz" class="headerlink" title="安装和配置graphviz"></a>安装和配置<strong>graphviz</strong></h2><p>graphviz是我们算法模块中比较重要的一个库，我们会使用它来对我们的重要算法：决策树进行绘图。通常来说graphviz都不太可能是自带的。Mac系统下安装graphviz相对简单，可以参考博文：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_36847641/article/details/78224910%E3%80%82">https://blog.csdn.net/qq_36847641/article/details/78224910。</a></p>
+<h2 id="安装和配置graphviz"><a href="#安装和配置graphviz" class="headerlink" title="安装和配置graphviz"></a>安装和配置<strong>graphviz</strong></h2><p>graphviz是我们算法模块中比较重要的一个库，我们会使用它来对我们的重要算法：决策树进行绘图。通常来说graphviz都不太可能是自带的。Mac系统下安装graphviz相对简单。</p>
 
                 
             </div>
@@ -1163,9 +1163,10 @@ new Valine({
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/posts/d2d6104d.html">
                     <div class="card-image">
@@ -1183,9 +1184,9 @@ new Valine({
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-09-04
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-09-04
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1198,6 +1199,7 @@ new Valine({
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1428,6 +1430,13 @@ new Valine({
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
 
 
