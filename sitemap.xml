@@ -4,6 +4,13 @@
   <url>
     <loc>https://yuconggen.github.io/posts/5106d60a.html</loc>
     
+    <lastmod>2021-10-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yuconggen.github.io/posts/5106d60a.html</loc>
+    
     <lastmod>2021-10-15</lastmod>
     
   </url>
@@ -81,7 +88,7 @@
 
   <url>
     <loc>https://yuconggen.github.io/</loc>
-    <lastmod>2021-10-15</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -89,28 +96,35 @@
   
   <url>
     <loc>https://yuconggen.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2021-10-15</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://yuconggen.github.io/tags/%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2021-10-15</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://yuconggen.github.io/tags/javascript/</loc>
-    <lastmod>2021-10-15</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://yuconggen.github.io/tags/Vue/</loc>
-    <lastmod>2021-10-15</lastmod>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuconggen.github.io/tags/tensorflow/</loc>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -119,14 +133,21 @@
   
   <url>
     <loc>https://yuconggen.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AF%87/</loc>
-    <lastmod>2021-10-15</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://yuconggen.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2021-10-15</lastmod>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuconggen.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
